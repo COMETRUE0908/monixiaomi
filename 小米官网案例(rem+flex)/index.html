@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 视口标签 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no,
+    maximum-scale=1.0,minimum-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+</head>
+
+<body>
+    <div class="main">
+        <!-- 顶部导航栏开始 -->
+        <div class="index-header">
+            <span>
+                <p><img src="images/logo.jpg" alt=""></p>
+            </span>
+            <span></span>
+            <span>
+                <div></div>
+                <div></div>
+            </span>
+        </div>
+        <!-- 顶部导航栏结束 -->
+        <!-- 第一张图开始 -->
+        <div class="swiper-img-inner">
+            <a href="tip.html">
+                <img src="images/img1.jpg" alt="">
+            </a>
+        </div>
+        <!-- 第一张图结束 -->
+        <!-- 第二张图开始 -->
+        <div class="swiper-img-inner2">
+            <div class="inner">
+                <!-- Swiper -->
+                <div class="swiper mySwiper myone">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="tip.html"><img src="images/img2.1.jpg" alt=""></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="tip.html"><img src="images/img2.2.jpg" alt=""></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="tip.html"><img src="images/img2.3.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="swiper-scrollbar scrone"></div>
+                </div>
+            </div>
+        </div>
+        <!-- 第二张图结束 -->
+        <!-- 第三张图开始 -->
+        <div class="swiper-img-inner2">
+            <div class="inner">
+                <!-- Swiper -->
+                <div class="swiper mySwiper myone">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="tip.html"><img src="images/img3.1.jpg" alt=""></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="tip.html"><img src="images/img3.2.png" alt=""></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="tip.html"><img src="images/img3.3.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="swiper-scrollbar scrone"></div>
+                </div>
+            </div>
+        </div>
+        <!-- 第三张图结束 -->
+        <!-- 第四张图开始 -->
+        <div class="swiper-img-inner2">
+            <div class="inner">
+                <!-- Swiper -->
+                <div class="swiper mySwiper myone">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide lj">
+                            <a href="tip.html"><img src="images/img4.1.jpg" alt=""></a>
+                        </div>
+                        <div class="swiper-slide lj">
+                            <a href="tip.html"><img src="images/img4.1.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="swiper-scrollbar scrone"></div>
+                </div>
+            </div>
+        </div>
+        <!-- 第四张图结束 -->
+        <!-- 了解详情1开始  -->
+        <div class="realize1">
+            <div class="realize1-inner">
+                <img src="images/img5.1.png" alt="">
+            </div>
+        </div>
+        <!-- 了解详情2结束 -->
+        <!-- 了解详情2开始 -->
+        <div class="realize1">
+            <div class="realize1-inner">
+                <img src="images/img6.1.png" alt="">
+            </div>
+        </div>
+        <!-- 了解详情2结束 -->
+        <!-- 尾部开始 -->
+        <div class="m-footer">
+            <div class="footer">
+                <a href="tip.html">
+                    了解小米
+                    <div class="right"></div>
+                </a>
+            </div>
+        </div>
+        <!-- 尾部结束 -->
+    </div>
+    <script src="js/flexible.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script>
+        (function(){
+            var swiper = new Swiper(".myone", {
+          scrollbar: {
+            el: ".scrone",
+            hide: false,
+          },
+        });
+        })();
+      </script>
+</body>
+
+</html>
